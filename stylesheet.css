@@ -25,12 +25,14 @@ h2{
     text-align: center;
     
 }
+
+#hamburger{
+    display:none;
+}
  
 ul li{
     display: inline-block;
     padding: 1rem 3rem;
-   
-    
 }
  
 button{
@@ -48,4 +50,41 @@ button{
 footer{
     padding-top: 10rem;
    text-align:center;
+}
+
+@media screen and (max-width: 1150px){
+    *{
+        font-size:16px;
+    }
+
+    #home{
+        float: left;
+    }
+    #hamburger{
+        display:block;
+    }
+
+    .right{
+        float:right;
+    }
+
+    .hide{
+        display:none;
+    }
+    ul li{
+        display: block;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .navbar ul{
+        text-align: center;
+        padding:2rem 0rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    *{
+        font:14px;
+    }
 }

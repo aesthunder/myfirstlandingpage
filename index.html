@@ -2,19 +2,23 @@
 <html>
   <head>
         <title>Anson</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./stylesheet.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
       <div class="navbar"> 
         <ul>
-          <li>Home</li>
-          <li>Company</li>
-          <li>People</li>
-          <li>Support</li>
-          <li><a id="sendapp" href="#">Send app to phone</a></li>
+          <li id="home">Home</li>
+          <li class="hide">Company</li>
+          <li class="hide">People</li>
+          <li class="hide">Support</li>
+          <li id="hamburger" class="right"><i class="fa fa-bars"></i></li>
+          <li class="right"><a id="sendapp" href="#">Send app to phone</a></li>
+         
         </ul>
       </div>
       <h1>Never overpay for travel again!</h1>
